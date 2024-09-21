@@ -30,19 +30,6 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: scope_of_impact
-    attributes:
-      label: 影響範圍
-      description: 請選擇此功能的影響範圍。
-      options:
-        - 無影響
-        - 小範圍修改
-        - 模組範圍變更
-        - 全系統影響
-    validations:
-      required: true
-
   - type: checkboxes
     id: alternatives_considered
     attributes:
@@ -58,4 +45,3 @@ body:
       label: 替代方案描述
       description: 如果有考慮替代方案，請具體說明。
       placeholder: 請輸入詳細的描述
-
