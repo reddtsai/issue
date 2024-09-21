@@ -46,8 +46,8 @@ body:
   - type: checkboxes
     id: alternatives_considered
     attributes:
-      label: 其他方案
-      description: 您是否考慮過其他替代方案？請選擇並加以說明。
+      label: 替代方案
+      description: 您是否考慮過其他替代方案？
       options:
         - label: 已考慮
         - label: 尚未考慮
