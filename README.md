@@ -1,3 +1,3 @@
 # issue
 
-測試 github project, issue, template, action, wiki, security
+測試 github project, issue, template, action, wiki, security.
