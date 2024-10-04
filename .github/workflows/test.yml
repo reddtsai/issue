@@ -1,16 +1,16 @@
-name: build
+name: unit tests
 
 on:
   push:
-    tags:
-      - "v*"
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        go-version: ["1.21.x"]
 
     steps:
       - uses: actions/checkout@v4
