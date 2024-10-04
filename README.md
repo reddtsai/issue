@@ -6,7 +6,15 @@
 
 透過 Projects 管理個人工作，建立 repo issue 轉換為 project card，並安排時間消化這些 project card。
 
-project card 狀態：`To Do => In Progress => Done`
+project card 狀態：
+
+- To Do
+- In Progress
+- Done
+
+`To Do => In Progress` 建立分支，開始進行 issue。
+
+`In Progress => Done` 當 PR 完成合併後，自動將狀態轉為完成。
 
 ## Issues
 
