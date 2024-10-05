@@ -38,3 +38,19 @@ issue type
 ## Secrets and Variables
 
 保存環境變數和機密資訊
+
+例如
+base64 編碼 env 檔案並保存在 repo secrets
+
+```
+# linux
+base64 .env > env.base64
+# mac
+openssl base64 -in .env -out env.base64
+```
+
+Actions workflow 中 base64 解碼 secrets
+
+```
+echo ${{ secrets.ENV }} | base64 --decode > .env
+```
