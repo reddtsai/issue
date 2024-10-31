@@ -1,5 +1,7 @@
 # issue
 
+[![Build Status](https://github.com/reddtsai/issue/actions/workflows/test.yml/badge.svg)](https://github.com/reddtsai/issue/actions)
+
 這個 repo 用於個人通過 project、issue、action 和 secret 功能來組織和管理工作流程。
 
 ## Projects
